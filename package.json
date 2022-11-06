@@ -1,0 +1,23 @@
+{
+  "name": "cypress-boilerplate",
+  "version": "0.0.1",
+  "description": "A cypress boilerplate.",
+  "main": "",
+  "scripts": {
+    "dev": "concurrently \"mix watch\" \"npm run live\"",
+    "dev:watch": "mix watch",
+    "live": "php -S localhost:8000 -t ./dist",
+    "test": "npx cypress open"
+  },
+  "keywords": ["cypress", "test"],
+  "author": "Nico Petri",
+  "license": "MIT",
+  "devDependencies": {
+    "alpine": "^0.2.1",
+    "alpinejs": "^3.10.5",
+    "cypress": "^10.11.0",
+    "filename-regex": "^2.0.1",
+    "laravel-mix": "^6.0.49",
+    "mix-html-builder": "^0.9.0"
+  }
+}

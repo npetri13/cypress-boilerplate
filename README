@@ -1,0 +1,6 @@
+# A Cypress Boilerplate
+This is a small cypress boilerplate just for testing puposes. In this example alpinejs is used as javascript library.
+
+### npm run $
+dev: Runs a live server (need php to be installed) and the bundler (watch mode; uses laravel-mix).
+test: Runs cypress itself.
